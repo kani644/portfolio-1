@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #121212;
+
+}
+
+a:hover {
+    color: #d99525;
+    text-decoration: underline;
+}
+
+nav {
+    font-size: 24px;
+    color: #d99525;
+    word-spacing: 50px;
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    z-index: 5;
+
+}
+
+.circle {
+    height: 700px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 80px solid #f7ebdb;
+    position: absolute;
+    bottom: 200PX;
+    left: -250PX;
+    z-index: -4;
+}
+
+h1 {
+    margin: 5px;
+    padding: 5px;
+    top: 5px;
+    position: fixed;
+}
+
+.hello {
+    color: #737373;
+    font-size: 40px;
+    padding: 40px;
+    position: relative;
+    top: 250px;
+
+}
+
+.Im {
+    font-size: 90px;
+    padding: 40px;
+    position: relative;
+    top: 190px;
+    left: 40px;
+}
+
+.name {
+    font-size: 100px;
+    color: #d99525;
+    text-decoration: underline;
+    padding: 110px;
+    position: relative;
+    top: 80px;
+}
+
+.web {
+    position: relative;
+    padding: 20px;
+    bottom: 0px;
+    left: 400px;
+}
+
+.header {
+    color: #121212;
+    margin: 10px;
+}
+
+.shape {
+    height: 700px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 80px solid #f7ebdb;
+    position: absolute;
+    left: -250PX;
+    z-index: -4;
+    top: 0px;
+    left: 970px;
+}
+
+.hireme {
+    border: solid black;
+    border-radius: 50px;
+    background-color: #ffb633;
+    position: absolute;
+    top: 670px;
+    left: 430px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.hireme:hover {
+    text-decoration: underline;
+}
+
+.image-1 {
+    position: absolute;
+    right: 40px;
+    top: 145px;
+    z-index: 4;
+}
+
+.square {
+    height: 700px;
+    width: 400px;
+    background-color: #f7c464;
+    border-radius: 20px;
+    position: absolute;
+    right: 40px;
+    top: 60px;
+}
+
+.me {
+    background-color: line;
+}
+
+.ab {
+    font-size: 50px;
+    position: relative;
+    left: 650px;
+}
+
+.briefy {
+    position: relative;
+    top: 60px;
+    left: 430px;
+    font-size: 25px;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+}
+
+.edu {
+    position: absolute;
+    top: 1330px;
+    left: 670px;
+    font-size: 40px;
+}
+
+.cls {
+    position: absolute;
+    left: 350px;
+    top: 76em;
+}
+
+.edu2 {
+    position: absolute;
+    left: 420px;
+    top: 91em;
+}
+
+.web1 {
+    position: absolute;
+    left: 350px;
+    top: 80em;
+}
+
+.web2 {
+    position: absolute;
+    left: 420px;
+    top: 96em;
+}
+
+.barback {
+    height: 10px;
+    width: 300px;
+    background-color: #6ce5e8;
+    border-radius: 50px;
+}
+
+.bar {
+    height: 10px;
+    width: 100px;
+    background-color: #41b8d5;
+    border-radius: 50px;
+    bottom: 10px;
+    position: relative;
+}
+
+.bars {
+    position: absolute;
+    top: 2000px;
+    left: 300px;
+}
+
+.cback {
+    height: 10px;
+    width: 300px;
+    background-color: #6ce5e8;
+    border-radius: 50px;
+}
+
+.co {
+    height: 10px;
+    width: 20px;
+    background-color: #41b8d5;
+    border-radius: 50px;
+    bottom: 10px;
+    position: relative;
+}
+
+.css {
+    position: absolute;
+    top: 2200px;
+    left: 300px;
+}
+
+.javaback {
+    height: 10px;
+    width: 300px;
+    background-color: #6ce5e8;
+    border-radius: 50px;
+}
+
+.java {
+    height: 0px;
+    width: 0px;
+    background-color: #41b8d5;
+    border-radius: 50px;
+    bottom: 10px;
+    position: relative;
+}
+
+.javas {
+    position: absolute;
+    top: 2400px;
+    left: 300px;
+}
+
+.pythonback {
+    height: 10px;
+    width: 300px;
+    background-color: #6ce5e8;
+    border-radius: 50px;
+}
+
+.python {
+    height: 10px;
+    width: 100px;
+    background-color: #41b8d5;
+    border-radius: 50px;
+    bottom: 10px;
+    position: relative;
+}
+
+.pythons {
+    position: absolute;
+    top: 2000px;
+    left: 1000px;
+}
+
+.cplusback {
+    height: 10px;
+    width: 300px;
+    background-color: #6ce5e8;
+    border-radius: 50px;
+}
+
+.cplus {
+    height: 10px;
+    width: 100px;
+    background-color: #41b8d5;
+    border-radius: 50px;
+    bottom: 10px;
+    position: relative;
+}
+
+.cpluss {
+    position: absolute;
+    top: 2200px;
+    left: 1000px;
+}
+
+.logicback {
+    height: 10px;
+    width: 300px;
+    background-color: #6ce5e8;
+    border-radius: 50px;
+}
+
+.logic {
+    height: 10px;
+    width: 90px;
+    background-color: #41b8d5;
+    border-radius: 50px;
+    bottom: 10px;
+    position: relative;
+}
+
+.logics {
+    position: absolute;
+    top: 2400px;
+    left: 1000px;
+}
+
+.skills {
+    font-size: 70px;
+    position: absolute;
+    top: 1700px;
+    left: 700px;
+    font-family: ;
+}
+
+.ill {
+    position: absolute;
+    top: 1740px;
+    left: 700px;
+    font-size: 80px;
+    font-weight: 200px;
+    color: rgb(12, 12, 12);
+    padding: 10px;
+    letter-spacing: 5px;
+    z-index: 3;
+}
+
+.ills {
+    position: absolute;
+    top: 1770px;
+    left: 670px;
+    font-size: 100px;
+    font-weight: 400px;
+    letter-spacing: 9px;
+    color: #BBBBBB;
+}
+
+.html {
+    font-size: 30px;
+    position: absolute;
+    top: 65em;
+    left: 310px;
+
+}
+
+.css1 {
+    font-size: 30px;
+    position: absolute;
+    top: 71em;
+    right: 1123px;
+}
+
+.Javascript {
+    font-size: 30px;
+    position: absolute;
+    top: 78em;
+    right: 1050px;
+}
+
+.python-1 {
+    font-size: 30px;
+    position: absolute;
+    top: 65em;
+    right: 390px;
+}
+
+.C-lang {
+    font-size: 30px;
+    position: absolute;
+    top: 72em;
+    right: 430px;
+}
+
+.logical-reasoning {
+    font-size: 30px;
+    position: absolute;
+    top: 78em;
+    right: 250px;
+}
+
+.contact-1 {
+    border: solid black;
+    border-radius: 50px;
+    background-color: #ffb633;
+    position: absolute;
+    top: 2500px;
+    left: 300px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.gmail-logo {
+    position: absolute;
+    top: 2600px;
+    left: 390px;
+}
+
+.email-id {
+    position: absolute;
+    top: 2610px;
+    left: 457px;
+    font-size: 30px;
+}
+
+.linkedin-logo {
+    position: absolute;
+    top: 2690px;
+    left: 373px;
+    height: 70px;
+    width: 70px;
+}
+
+.linkedin-id {
+    position: absolute;
+    top: 2720px;
+    left: 455px;
+    font-size: 30px;
+}
+
+.website-logo {
+    position: absolute;
+    top: 2790px;
+    left: 373px;
+    height: 70px;
+    width: 70px;
+}
+
+.website-id {
+    position: absolute;
+    top: 2810px;
+    left: 500px;
+    font-size: 30px;
+}
+
+.location-logo {
+    position: absolute;
+    top: 2890px;
+    left: 373px;
+    height: 70px;
+    width: 70px;
+}
+
+.location-id {
+    position: absolute;
+    top: 2900px;
+    left: 500px;
+    font-size: 30px;
+}
+
+.front-page {
+    position: absolute;
+    top: 2620px;
+    right: 200px;
+    width: 300px;
+    height: 300px;
+}
